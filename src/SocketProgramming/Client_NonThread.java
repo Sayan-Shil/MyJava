@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Client {
+public class Client_NonThread {
     public static void main(String[] args) throws IOException,ClassNotFoundException {
         // Creating a Server with port and host , helps to create a destination path
         try(Socket socket=new Socket("localhost",3000);

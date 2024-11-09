@@ -8,7 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Server {
+public class Server_NonThread {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // Creating a ServerSocket with port
         try (ServerSocket ss = new ServerSocket(3000)) {
