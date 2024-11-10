@@ -1,4 +1,4 @@
-package SocketProgramming;
+package SocketProgramming.NonThreaded;
 
 import java.io.IOException;
 import java.io.ObjectInput;
