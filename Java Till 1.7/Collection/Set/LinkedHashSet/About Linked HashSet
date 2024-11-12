@@ -1,0 +1,12 @@
+DEFINITION:
+>>
+       LinkedHashSet is pre-built class inside java.util package with implements Set interface which represents a group
+       of individual objects where duplicates are not allowed but insertion order is preserved.
+
+
+
+FEATURES:
+>>
+     1. Similar To HashSet but Insertion Order is preserved
+     2. ( Linked List + HashSet )
+

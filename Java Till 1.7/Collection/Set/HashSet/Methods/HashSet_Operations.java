@@ -3,7 +3,7 @@ package Collection.Set.HashSet.Methods;
 import java.util.HashSet;
 
 public class HashSet_Operations {
-    public static HashSet<Integer> h = new HashSet<>();
+    public static HashSet<Object> h = new HashSet<>();
 
     public static void main(String[] args) {
         boolean bool= h.add(5);        //  Returns True if able to insert
@@ -14,10 +14,19 @@ public class HashSet_Operations {
         System.out.println(bool);
         System.out.println(h);
 
+        System.out.println(h);
 
 
+        h.add("Sayan");
+        h.add("Shil");
+        h.add(52);
+        h.add(78.98);
+        h.add(true);
 
-        // Rest All Methods are same as ArrayList
+
+        System.out.println(h);    // Insertion Order is not preserved
+
+        // Rest All Methods are same as ArrayList but indexing not allowed.
     }
 
 }

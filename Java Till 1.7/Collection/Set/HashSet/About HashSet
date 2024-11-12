@@ -1,7 +1,7 @@
 DEFINITION:
 >>
    HashSet is pre-built class inside java.util package with implements Set interface which represents a group of
-    individual objects where duplicates are not allowed.
+    individual objects where duplicates are not allowed and insertion order is not preserved .
 
 
 
