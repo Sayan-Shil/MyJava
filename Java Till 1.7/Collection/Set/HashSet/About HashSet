@@ -1,0 +1,23 @@
+DEFINITION:
+>>
+   HashSet is pre-built class inside java.util package with implements Set interface which represents a group of
+    individual objects where duplicates are not allowed.
+
+
+
+FEATURES:
+>>
+   1. HashSet is a class which implements Set
+   2. Underlying Data Structure of HashSet is - HashTable
+   3. Insertion Order is Not preserved , based on HashCode
+
+
+
+
+CAPACITY AND FILL RATIO:
+>>
+
+    Default Capacity of HashSet >> 16
+                 Load Factor is >> 0.75
+                      Increment >>  CurrentCapacity*2   ( 16-->32-->64-->128--.....)
+
