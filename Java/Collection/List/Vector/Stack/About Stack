@@ -1,0 +1,14 @@
+DEFINITION:
+>>
+   Stack is the child class of Vector , also part of Legacy Class in Java where underlying data structure
+   is - Stack which represents LastInFirstOut (LIFO) operations. Stack does not implements List but its parent class
+   Vector implements List.
+
+
+
+
+FEATURES:
+>>
+   1. Stack is a part of Java Legacy Class
+   2. Stack follows LIFO ( Last In First Out) operation
+   3. Stack does not implements List but extends Vector

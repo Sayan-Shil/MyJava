@@ -1,0 +1,7 @@
+CONSTRUCTOR:
+>>
+
+  1. Vector v = new Vector();                                            --> Normal Vector with size 10
+  2. Vector v = new Vector( int InitialCapcity )                         --> Vector with customised initial size
+  3. Vector v = new Vector ( Collection C )                              --> Clone collection to Vector
+  4. Vector v = new Vector ( int InitialCapcity, int Increment )         -->  Vector with customised increment

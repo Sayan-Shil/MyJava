@@ -1,0 +1,76 @@
+DEFINITION:
+>>
+   Collection is a Java Interface inside " java.util " package which represents a group of individual objects.
+
+
+
+
+FEATURES:
+>>
+   1. Collections are growable in nature unlike Arrays which are limited in size
+   2. Collections allocates memory according to input data. So Memory wise, Collections are
+      better.
+   3. Collections can hold Object heterogeneous types
+   4. Collection can have type-safety like Arrays with the help of generics
+   5. In ArrayList, Underlying Data Structure available .
+   6. It implements Serializable for serializations and Cloneable for cloning operations
+
+
+
+
+
+COLLECTION FAMILY:
+>>
+Collection(I) --> List(I) --> ( ArrayList , LinkedList, Vector --> Stack )
+Collection(I) --> Set(I) --> ( HashSet --> LinkedHashSet , SortedSet --> NavigableSortedSet --> TreeSet )
+Collection(I) --> Queue(I) --> (  PriorityQueue , BlockingQueue --> (PriorityBlockingQueue, LinkedBlockingQueue))
+
+
+
+
+
+GENERAL METHODS OF COLLECTION INTERFACE:
+>>
+   In the Collection interface inside "java.util" package , there are 12 pre-defined methods which also are
+   inherited to all other child-interfaces classes which implements Collection Interface internally. Which
+   means that these general methods can be invoked by all classes which implements Collection interfaces or
+   its child interfaces
+
+
+
+   >> ADDING OPERATIONS
+
+   1. add (Object O)               --> add Object inside collection
+   2. addAll (Collection c)        --> add Collection inside collection
+
+
+   >> REMOVING OPERATIONS
+
+   3. remove (Object O)            --> remove Object from Collection
+   4. removeAll (Collection c)     --> remove Collection from Collection
+   5. clear ()                     --> clears entire Collection
+   6. retainAll (Collection c)     --> Except Collection , remove everything
+
+
+   >> SEARCHING OPERATIONS
+
+   7. contains (Object O)          --> check if object is available or not
+   8. containsALL( Collection c)   --> check if collection is available or not
+
+
+   >> SIZING
+
+   9. size ()                      --> returns size of the collections
+   10. isEmpty()                   --> check if size is 0 or empty
+
+
+   >> CONVERSION AND ITERATIONS
+
+   11. toArray()                   --> Convert Collection To Array
+   12. iterator()                  --> Initialise Iterator inside Collection
+
+
+
+
+
+

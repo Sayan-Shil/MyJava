@@ -1,0 +1,26 @@
+DEFINITION:
+>>
+   Vector is a synchronized (thread-safe) implementation of ArrayList , which is also Legacy class , introduced in
+   Java 1.0 version which can hold group of individual objects with the same property of List .
+
+
+
+
+FEATURES:
+>>
+    1. Vector is Legacy Class , means introduced in Java 1.0 version
+    2. Vector is synchronised
+    3. Vector is Thread-Safe
+    4. Performance of Vector is better than ArrayList and LinkedList
+    5. Memory wise, Vector have cons as capacity expansion is higher than ArrayList
+
+
+
+
+CAPACITY EXPANSION:
+>>
+    The default Capacity of Vector is 10
+    After default size,
+
+    New Capacity = Initial Capcity*2  ( takes 50% more memory allocation than ArrayList)
+

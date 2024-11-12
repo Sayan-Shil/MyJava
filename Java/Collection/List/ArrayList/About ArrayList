@@ -1,0 +1,64 @@
+DEFINITION:
+>>
+   ArrayList is a pre-defined java class implementing List interface inside " java.util" package
+   which holds a list of individuals object where duplicates are not allowed and insertion order
+   is preserved by indexing.
+
+
+
+
+
+FEATURES:
+>>
+    1. ArrayList is a class pre-defined in java.util package implements List interface. So, ArrayList
+       holds all properties of list too.
+    2. ArrayList also known as " Resizable Array"
+    3. Null Insertion is possible
+    4. ArrayList also implements RandomAccess , so we can have faster retrieval operations
+
+
+
+
+
+
+HOW RESIZING IS DONE :
+>>
+    ArrayList is also known as "Resizable Array". Arrays has the main problem of being fixed in size. However,
+    ArrayList dynamically increases its size once it fills its  capacity.
+
+    For the first time,
+    -> ArrayList has  size of - 0 when creating with "new" operator
+
+    Once an element is added for the first time ,
+    -> ArrayList initiates with default size of - 10
+
+    Once the 10th element is inserted and the 11th element is about to inserted
+    -> A new Arraylist of size ( Current Capacity * 1.5 ) +1 is created and in the new ArrayList all the
+       previous old elements are copied in the new ArrayList and updates the reference variable
+       to point to the new ArrayList where the old Arraylist is collected by Garbage collector.
+
+   These Process is also known as - " Dynamic Array Resizing " or " Array Capacity Expansion"
+
+
+         a-->   1 2 3 4 5 6 7 8 9 10
+                _ _ _ _ _ _ _ _ _ _                   ( 10 capacity)
+
+
+                 _ _ _ _ _ _ _ _ _ _
+                 1 2 3 4 5 6 7 8 9 10 11
+         a-->    _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ( 16 capacity )
+
+
+
+
+
+
+ARRAYLIST'S ADVANTAGE IS THE ARRAYLIST'S PROBLEM:
+>>
+    Every time, when the size exceeds the ArrayList capacity , a new larger sized ArrayList is created with
+    extra capacity which may or may not be used. This caused Memory fragmentation problems and also memory
+    wastage problem which is not a good programming practice.
+
+    That is why, if we know the size of ArrayList or can predict size range , it is better to choose Array
+    or ArrayList with own initial capacity to prevent memory wastage.
+

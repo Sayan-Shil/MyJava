@@ -1,0 +1,13 @@
+DEFINITION:
+>>
+    LinkedList is a pre-built class based on LinkedList data Structure inside java.util package which implements list interface and
+    can hold group of individual objects in a preserved order of insertion.
+
+
+
+FEATURES:
+>>
+    1. LinkedList follows LinkedList Data Structures where an object has reference variable of another object .
+    2. LinkedList is best for Insertion or Deletion
+    3. LinkedList is worst for Retrieval Operation
+    4. There is no concept of Capacity in LinkedList
