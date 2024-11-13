@@ -1,8 +1,0 @@
-METHODS OF VECTOR:
->>
-   Vector has no new  methods. It is the class that implements List Interface which is
-   child interface of Collection interface. So, Vector has all methods that is defined in list as well
-   as Collections.
-
-   12 from Collections
-   8 from List

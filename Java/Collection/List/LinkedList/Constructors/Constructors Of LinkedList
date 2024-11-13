@@ -1,5 +1,0 @@
-CONSTRUCTOR:
->>
-
-  1. LinkedList list = new LinkedList();                          --> Normal LinkedList with size 10
-  2. LinkedList list = new LinkedList ( Collection C )            --> Clone collection to LinkedList

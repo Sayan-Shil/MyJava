@@ -1,0 +1,76 @@
+DEFINITION:
+>>
+   Collection_Framework is a Java Interface inside " java.util " package which represents a group of individual objects.
+
+
+
+
+FEATURES:
+>>
+   1. Collections are growable in nature unlike Arrays which are limited in size
+   2. Collections allocates memory according to input data. So Memory wise, Collections are
+      better.
+   3. Collections can hold Object heterogeneous types
+   4. Collection_Framework can have type-safety like Arrays with the help of generics
+   5. In ArrayList, Underlying Data Structure available .
+   6. It implements Serializable for serializations and Cloneable for cloning operations
+
+
+
+
+
+COLLECTION FAMILY:
+>>
+Collection_Framework(I) --> List(I) --> ( ArrayList , LinkedList, Vector --> Stack )
+Collection_Framework(I) --> Set(I) --> ( HashSet --> LinkedHashSet , SortedSet --> NavigableSortedSet --> TreeSet )
+Collection_Framework(I) --> Queue(I) --> (  PriorityQueue , BlockingQueue --> (PriorityBlockingQueue, LinkedBlockingQueue))
+
+
+
+
+
+GENERAL METHODS OF COLLECTION INTERFACE:
+>>
+   In the Collection_Framework interface inside "java.util" package , there are 12 pre-defined methods which also are
+   inherited to all other child-interfaces classes which implements Collection_Framework Interface internally. Which
+   means that these general methods can be invoked by all classes which implements Collection_Framework interfaces or
+   its child interfaces
+
+
+
+   >> ADDING OPERATIONS
+
+   1. add (Object O)               --> add Object inside collection
+   2. addAll (Collection_Framework c)        --> add Collection_Framework inside collection
+
+
+   >> REMOVING OPERATIONS
+
+   3. remove (Object O)            --> remove Object from Collection_Framework
+   4. removeAll (Collection_Framework c)     --> remove Collection_Framework from Collection_Framework
+   5. clear ()                     --> clears entire Collection_Framework
+   6. retainAll (Collection_Framework c)     --> Except Collection_Framework , remove everything
+
+
+   >> SEARCHING OPERATIONS
+
+   7. contains (Object O)          --> check if object is available or not
+   8. containsALL( Collection_Framework c)   --> check if collection is available or not
+
+
+   >> SIZING
+
+   9. size ()                      --> returns size of the collections
+   10. isEmpty()                   --> check if size is 0 or empty
+
+
+   >> CONVERSION AND ITERATIONS
+
+   11. toArray()                   --> Convert Collection_Framework To Array
+   12. iterator()                  --> Initialise Iterator inside Collection_Framework
+
+
+
+
+
+

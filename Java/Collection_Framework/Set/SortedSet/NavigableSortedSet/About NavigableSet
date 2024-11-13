@@ -1,0 +1,15 @@
+DEFINITION:
+>>
+    NavigableSortedSet is child interface of Sorted which was introduced in 1.6 Version to enhance navigation through
+    the Set
+
+
+NEW METHODS:
+>>
+   1. floor(x)           --> return floor value towards x   ;         <=x
+   2. lower(x)           --> return lower nearest value towards x ;   <x
+   3. ceiling(x)         --> return ceiling value towards x   ;       >=x
+   4. higher(x)          --> return highest nearest value towards x ;  >x
+   5. pollFirst()        --> retrieve and remove first element
+   6. pollLast();        --> retrieve and remove last element
+   7. descendingSet()    --> reverse order but returns Object type

@@ -1,8 +1,0 @@
-CONSTRUCTOR:
->>
-
-  1. ArrayList al = new Arraylist();                          --> Normal ArrayList with size 10
-  2. ArrayList al = new ArrayList( int InitialCapcity )       --> ArrayList with customised initial size
-  3. ArrayList al = new ArrayList ( Collection C )            --> Clone collection to ArrayList
-
-

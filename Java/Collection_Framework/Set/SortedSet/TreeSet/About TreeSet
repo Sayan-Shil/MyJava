@@ -1,0 +1,19 @@
+DEFINITION:
+>>
+    TreeSet is the pre-built class defined inside java.util package that implements Navigable SortedSet which implements
+    SortedSet.
+
+
+FEATURES:
+>>
+    1. Underlying Data Structure of TreeSet is - Balanced Tree
+    2. It implements Navigable SortedSet , however comes before NavigableSortedSet
+    3. Sorting is always possible when something can be compared , and to compare in Java, the objects must be same in
+       type. So, Homogeneous Object is allowed.
+       ** If we define compare with different object , then we can use Heterogeneous Objects
+    4. It implements comparable
+
+
+
+
+

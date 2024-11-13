@@ -1,9 +1,0 @@
-GENERAL HASHING CONSTRUCTORS:
->>
-    All Classes implements either Set / Map having "Hash" in their name , have these 4 general constructors
-
-
-    1. HashSet h = new HashSet();
-    2. HashSet h = new HashSet(Collection C);
-    3. HashSet h = new HashSet(int initialCapacity);
-    4. HashSet h = new HashSet ( int initialCapacity , float Fill Ratio);

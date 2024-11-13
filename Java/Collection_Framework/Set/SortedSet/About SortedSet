@@ -1,0 +1,35 @@
+DEFINITION:
+>>
+   Sorted Set is the child interface of Set Interface , which represents a group of individuals object according to
+   some sorting order.
+
+
+
+
+DEFAULT NATURAL ORDERING SORTING
+>>
+
+   NUMERICAL ORDER:
+   >>
+                   For numeric types (Integer, Double, Long, etc.), Java sorts in ascending numerical order
+                   (e.g., 1, 2, 10, 20).
+
+   LEXICOGRAPHICAL ORDER:
+   >>
+                   For String, Java sorts lexicographically by Unicode values (e.g., "Apple" < "Banana" < "Cherry").
+                   It’s case-sensitive, so uppercase letters come before lowercase letters (e.g., "Zebra" < "apple").
+
+
+
+
+
+GENERAL METHODS:
+>>
+    SortedSet has some general methods which are applicable to all classes that implements SortedSet.
+
+    1. first();                 --> retrieve first element
+    2. last();                  --> retrieve last element
+    3. headSet(x);              --> retrieve set of elements < x
+    4. tailSet(x);              --> retrieve set of elements  >= x
+    5. subset(x,y);             --> retrieve set of elements belongs to (x,y)
+    6. comparator()             --> Default Natural Order of Sorting

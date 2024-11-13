@@ -1,0 +1,34 @@
+DEFINITION:
+>>
+   Queue is the child interface of Collection_Framework which holds group of individual objects prior to processing following FIFO
+   principle
+
+
+
+FEATURES:
+>>
+    1. Queue is the child interface of collection.
+    2. Queue follows FIFO ( First in First Out )
+    3. UnderLying DataStructure is Queue
+    4. Heavily use in JMS (Java Message Service)
+    5. LinkedList implements Queue in 1.5 version
+
+
+
+QUEUE FAMILY:
+
+ Queue(I) --> (  PriorityQueue , BlockingQueue --> (PriorityBlockingQueue, LinkedBlockingQueue))
+
+
+
+
+
+GENERAL METHODS:
+>>
+   1. boolean offer(Object O)         --> adding element into queue
+   2. Object peek();                  --> return head element, null if queue is empty
+   3. Object element();               --> return head element, RE:NoSuchElementException if queue is empty
+   4. Object poll();                  --> Retrieve and remove element , return null if empty
+   5. Object remove()                 --> Retrieve and remove element , RE:NoSuchElementException if queue is empty
+
+

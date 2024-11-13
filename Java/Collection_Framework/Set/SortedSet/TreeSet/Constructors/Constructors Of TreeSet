@@ -1,0 +1,6 @@
+CONSTRUCTORS:
+>>
+   1. TreeSet t= new TreeSet();
+   2. TreeSet t= new TreeSet(Comparator c);
+   3. TreeSet t= new TreeSet(Collection_Framework C);
+   4. TreeSet t= new TreeSet(SortedSet S);
