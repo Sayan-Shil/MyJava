@@ -1,0 +1,59 @@
+DEFINITION:
+>>
+   Map is an interface inside java.util package , part of collection framework but not implements Collection. It represents
+   a group of individual objects which has key-value pair.
+
+
+
+FEATURES:
+
+         1. Map is a part of Collection Framework as it represents a group og individual objects but has not implements
+            Collection interface which means Map has own methods
+
+         2. Map is considered as Entry Object. Entry is itself an inner interface of Map interface
+         3. Map represents Key-Value pair
+         4. Underlying Data Structure is - HashTable
+         5. Insertion order is not preserved
+         6. Duplicate Keys are not allowed but duplicate values are allowed
+         7. implements Serializable, Cloneable and RandomAccess
+         8. It is best for search operation
+
+
+
+GENERAL METHODS:
+>>
+
+      >> ADDING/REPLACING OPERATION :
+
+        1. boolean put (Object key , Object value )
+        2. boolean putAll ( Map m )
+
+
+      >> RETRIEVAL , REMOVAL OPERATIONS :
+
+         3. Object get ( key )
+         4. Object remove ( key )
+
+      >> SEARCHING OPERATIONS :
+
+         5. boolean containsKey( key )
+         6. boolean containsValue ( value )
+
+
+      >>  SIZING OPERATIONS :
+
+          7. boolean isEmpty();
+          8. boolean isSize();
+          9. void clear()
+
+
+      >> COLLECTION VIEW METHODS
+
+          10. Set KeySet();
+          11. Collection values();
+          12. Set entrySet
+
+
+
+
+

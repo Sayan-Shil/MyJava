@@ -1,0 +1,15 @@
+DEFINITION:
+>>
+   Entry is inner interface of interface Map, which consists of key-value pair. It is the base of Map Object .
+
+
+
+
+METHODS:
+>>
+         Entry Methods are used when The Map Object is being iterated.
+
+
+        1. Object getKey()
+        2. Object getValue()
+        3. Object setValue(Value)
