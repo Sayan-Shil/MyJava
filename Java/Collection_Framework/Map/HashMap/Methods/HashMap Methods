@@ -1,0 +1,3 @@
+METHODS:
+>>
+   All Methods of Map are implemented by inheritance inside HashMap . HashMap has no new extra methods.

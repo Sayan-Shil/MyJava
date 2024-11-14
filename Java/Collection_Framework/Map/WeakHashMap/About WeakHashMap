@@ -1,0 +1,12 @@
+DEFINITION:
+>>
+    WeakHashMap is the predefined class inside java.util package , which is similar to HashMap but use weak reference on
+    Key Object.
+
+
+FEATURES:
+>>
+    1. It uses weak references on keys.
+    2. Entries may be automatically removed during garbage collection if the keys are no longer reachable from
+       outside the map.
+    3. Often used for caching scenarios or where the entries should not prevent garbage collection

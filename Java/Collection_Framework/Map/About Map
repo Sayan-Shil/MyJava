@@ -43,7 +43,7 @@ GENERAL METHODS:
       >>  SIZING OPERATIONS :
 
           7. boolean isEmpty();
-          8. boolean isSize();
+          8. boolean size();
           9. void clear()
 
 

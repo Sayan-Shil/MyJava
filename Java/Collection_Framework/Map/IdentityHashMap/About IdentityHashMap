@@ -1,0 +1,9 @@
+DEFINITION:
+>>
+    IdentityHashMap is the predefined class inside java.util package , which is similar to HashMap but use (==) reference
+    type comparison for adding Entry inside Map.
+
+FEATURES:
+>>
+   1. Use == for comparing and adding element
+   2. Multiple Null Value in possible in both Key and value
