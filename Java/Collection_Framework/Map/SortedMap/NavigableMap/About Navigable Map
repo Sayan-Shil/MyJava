@@ -1,0 +1,17 @@
+DEFINITION:
+>>
+    NavigableMap is the extension version of interface SortedMap which is enhanced to use more methods for navigation
+    purposes
+
+
+
+
+EXTRA METHODS WITH BASIC :
+>>
+    1. floorKey(a)                   --> return floor key
+    2. lowerKey(a)                   --> return lower key
+    3. ceilingKey(a)                 --> return ceiling key
+    4. higherKey(a)                  --> return higher key
+    5. pollFirstEntry()              --> remove first Entry by retrieving
+    6. pollLastEntry()               --> remove last Entry by retrieving
+    7. descendingMap()               --> reverse sorting order

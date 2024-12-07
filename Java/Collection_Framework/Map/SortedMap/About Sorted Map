@@ -1,0 +1,14 @@
+DEFINITION:
+>>
+   SortedMap is  the interface of java.util package where Entry are represented based on some sorting order of keys
+   SortedMap also child class of Map , so all methods of Map inherited automatically.
+
+
+BASIC METHODS:
+>>
+    1. firstKey()              --> return First Entry
+    2. lastKey()               --> return Last Entry
+    3. headMap(a)              --> return subset < a
+    4. tailMap(a)              --> return subset >=a
+    5. subMap(a,b)             --> return subset between a and b
+    6. comparator()            --> returns null but used for sorting

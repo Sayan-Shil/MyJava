@@ -1,0 +1,37 @@
+DEFINITION :
+>>
+   HashTable is the synchronized or Thread-safe version of HashMap that store a group of individual objects in
+   key-value pair .
+
+
+
+
+FEATURES:
+>>
+    1. It is legacy class, means comes in Java 1.0 Version
+    2. It is synchronised version of HashMap , means it is thread safe
+    3. It cannot store null like HashMap
+    4. Readability and Performance low than HashMap
+    5. Serializable , Cloneable but not Random Access
+    6. It can hold Heterogeneous objects
+    7. Insertion Order not preserved based on HashCode
+
+
+HIERARCHY:
+>>
+
+
+         Map -----
+                 ----> HashTable(L) ---> Properties(L)
+    Dictionary (L) ---
+
+
+
+SIZE AND INSERTION PROCESS:
+>>
+   The underlying data structure of HashTable is HashTable where keys are stored according to Hash Code which is
+   defined by modulo.
+
+   Default Size of HashTable is -   11
+                     Fill Ratio - 0.75
+

@@ -1,0 +1,72 @@
+MODULE RULE :
+>>
+   Modulo Rule is the way how JVM stores the data of hashtable based on hashcode .
+   The Process is done by 3 ways
+
+
+  HASH FUNCTION MODULUS
+  >> This refers to the operation of taking the remainder of the division of the hash code by the table size
+  (i.e., hashCode % tableSize).
+
+
+  MODULUS OPERATION
+  >> This is a more general term that refers to the operation of finding the remainder of an integer division operation
+  (i.e., a % b).
+
+
+  HASH TABLE INDEX CALCULATION
+  >> This term refers to the process of calculating the index at which a key-value pair should be stored in a hash table,
+   which often involves a modulus operation.
+
+
+
+Example-
+>>
+   Suppose we initialize a HashTable<Integer,String> hash . Default Size is 11 means it will store in an List type structure of 11
+
+
+                                                                             0.
+                                                                             1.
+                                                                             2. "B"
+                                                                             3.
+                                                                             4. "C"
+                                                                             5. "A" , "E"
+                                                                             6.
+                                                                             7.
+                                                                             8.
+                                                                             9.
+                                                                             10. "D"
+
+
+   Inserting 5
+   hash.put(5,"A")
+   5%11 = 5 , index will be 5
+
+    Inserting 2
+      hash.put(2,"B")
+      2%11 = 2 , index will be 2
+
+    Inserting 15
+    hash.put(15,"C")
+    15%11 = 4 , index will be 4
+
+    Inserting 21
+    hash.put(21,"D")
+    21%11 = 10 , index will be 10
+
+    Inserting 16
+    hash.put(16,"E")
+    16%11 = 5 , index will be 5
+
+
+    So the display will be
+
+   1. Highest to lowest
+   2. Right to left
+
+   Display:
+   >>
+    [   21="D" , 16="E" , 5="A", 15="C", 2="B"   ]
+
+
+

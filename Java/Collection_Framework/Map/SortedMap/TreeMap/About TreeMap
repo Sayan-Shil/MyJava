@@ -1,0 +1,22 @@
+DEFINITION
+>>
+   TreeMap is the pre-defined class inside java.util package that holds Entry Objects to represent an individual group
+   of objects based on key-value pair.
+   It implemented SortedSet before , then implemented NavigableMap which further extends SortedMap after Java 6
+
+
+
+
+
+
+FEATURES:
+>>
+     1. Pre-defined class of java.util package implements NavigableMap
+     2. Underlying Data Structure - Red-Black Tree
+     3. Duplicate Key not possible but values are possible
+     4. If we want to depend on Default Natural Sorting Map , keys must be homogeneous ,Or ClassCastException
+     5. If we can define how to compare different type of object via comparator then , Keys can be Heterogeneous
+
+
+
+

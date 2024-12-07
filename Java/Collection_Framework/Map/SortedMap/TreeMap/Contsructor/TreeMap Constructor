@@ -1,0 +1,6 @@
+TreeMap has 4 Constructors similar to all hash
+
+1. TreeMap t = new TreeMap();
+2. TreeMap t = new TreeMap(Comparator c);
+3. TreeMap t = new TreeMap(Map m);
+4. TreeMap t = new TreeMap(SortedMap);
