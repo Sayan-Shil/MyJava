@@ -1,0 +1,10 @@
+METHODS OF STACK:
+>>
+    Stack doesn't implement list interface not collection. So, it has its own Methods based on underlying Data
+    Structure - Stack
+
+    1. push(Object O)              --> Insert Object in the last position
+    2. pop()                       --> retrieve and then Remove Last Object
+    3. peek()                      --> retrieve last Object
+    4 empty()                      --> check if stack is empty ( *It is not isEmpty)
+    5.search(Object O)             --> returns its 1-based position from the top of the stack. returns -1 if empty
