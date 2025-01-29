@@ -1,0 +1,18 @@
+5. BIRTH OF C++ :
+---------------------------------------
+
+To solve the "Spaghetti Coding" problems , in 1960 there was a concept initiated called " Structure Programming" with
+Structural principle. C follows the structure programming strictly as moderately complex problems can easily be written
+in the language. However, Structural language performs very poor and more complex when projects increases size.
+So, for the structure level, there required new concept , which was further to be known as OOP (Object Oriented
+Programming ) .
+OOP is a programming methodology that helps organise modern programs through the use of inheritance , encapsulations,
+and polymorphisms.
+
+C++ , implementing OOP structure breaks the threshold at which program become unmanageable.
+
+C++ was invented by Bjarne Stroustrup in 1979 during working at Bell Laboratory in Murray Hill , New Jersey.
+First name was suggested to be C with Classes when in 1983, it was changed to C++ means C by adding oop features.
+The fact is that Stroustrup never wanted to create a entirely new language but add OOPs inside C.
+
+That is why still today, C and C++ is like " Inseparable brothers "

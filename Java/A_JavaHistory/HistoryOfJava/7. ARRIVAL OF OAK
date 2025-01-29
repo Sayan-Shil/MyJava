@@ -1,0 +1,14 @@
+7. ARRIVAL OF OAK :
+------------------------
+
+In the discussion of various disadvantages of C,C++ , James Gosling , Patrick Naughton , Chris Warth , Ed Frank and
+Mike Sheridan introduced a fully OOP Language , called "Oak" in 1992. Oak was introduced to be a platform-independent
+or Architecture-Neutral Language.
+
+C/C++ or other languages at that time, was platform dependent language means if we compile any source code , it will
+convert the source code to the specific machine code. The problem was - to run the executable machine code , specific
+machine is required . For that, if we change the architecture level , we need to define different compiler. This
+leads portability problems . Although C++ can achieve platform independence only if there is full C++ compilers targeted
+for particularly the CPU Architecture. But compilers are so much expensive , so Gosling and others began work on a
+portable, platform independent language that can run on variety of CPUs under different conditions. This efforts
+led to creation of Oak , after renamed as Java in 1995.
