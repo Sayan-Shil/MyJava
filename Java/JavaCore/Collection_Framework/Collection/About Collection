@@ -1,0 +1,76 @@
+DEFINITION:
+>>
+   JavaCore.Collection_Framework is a Java JavaBasics.Interface inside " java.util " package which represents a group of individual objects.
+
+
+
+
+FEATURES:
+>>
+   1. Collections are growable in nature unlike Arrays which are limited in size
+   2. Collections allocates memory according to input data. So Memory wise, Collections are
+      better.
+   3. Collections can hold Object heterogeneous types
+   4. JavaCore.Collection_Framework can have type-safety like Arrays with the help of generics
+   5. In ArrayList, Underlying Data Structure available .
+   6. It implements Serializable for serializations and Cloneable for cloning operations
+
+
+
+
+
+COLLECTION FAMILY:
+>>
+JavaCore.Collection_Framework(I) --> List(I) --> ( ArrayList , LinkedList, Vector --> Stack )
+JavaCore.Collection_Framework(I) --> Set(I) --> ( HashSet --> LinkedHashSet , SortedSet --> NavigableSortedSet --> TreeSet )
+JavaCore.Collection_Framework(I) --> Queue(I) --> (  PriorityQueue , BlockingQueue --> (PriorityBlockingQueue, LinkedBlockingQueue))
+
+
+
+
+
+GENERAL METHODS OF COLLECTION INTERFACE:
+>>
+   In the JavaCore.Collection_Framework interface inside "java.util" package , there are 12 pre-defined methods which also are
+   inherited to all other child-interfaces classes which implements JavaCore.Collection_Framework JavaBasics.Interface internally. Which
+   means that these general methods can be invoked by all classes which implements JavaCore.Collection_Framework interfaces or
+   its child interfaces
+
+
+
+   >> ADDING OPERATIONS
+
+   1. add (Object O)               --> add Object inside collection
+   2. addAll (JavaCore.Collection_Framework c)        --> add JavaCore.Collection_Framework inside collection
+
+
+   >> REMOVING OPERATIONS
+
+   3. remove (Object O)            --> remove Object from JavaCore.Collection_Framework
+   4. removeAll (JavaCore.Collection_Framework c)     --> remove JavaCore.Collection_Framework from JavaCore.Collection_Framework
+   5. clear ()                     --> clears entire JavaCore.Collection_Framework
+   6. retainAll (JavaCore.Collection_Framework c)     --> Except JavaCore.Collection_Framework , remove everything
+
+
+   >> SEARCHING OPERATIONS
+
+   7. contains (Object O)          --> check if object is available or not
+   8. containsALL( JavaCore.Collection_Framework c)   --> check if collection is available or not
+
+
+   >> SIZING
+
+   9. size ()                      --> returns size of the collections
+   10. isEmpty()                   --> check if size is 0 or empty
+
+
+   >> CONVERSION AND ITERATIONS
+
+   11. toArray()                   --> Convert JavaCore.Collection_Framework To Array
+   12. iterator()                  --> Initialise Iterator inside JavaCore.Collection_Framework
+
+
+
+
+
+

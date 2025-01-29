@@ -1,0 +1,29 @@
+PROBLEMS OF OLD LANGUAGES & NEEDS OF A PERFECT PROGRAMMING LANGUAGE:
+---------------------------------------------------------------------
+
+As soon as computer designers were thinking to move the computer technology not only keep inside the dummy box ,
+it should access to the beyond of hardware. The concepts of software were rapidly flourished as programmers required 
+a perfect language to be used so that the practice of coding changed and there can be a revolution in programming 
+so that programmers can gain unlimited access to their machines.
+
+Main Features they require
+>> Easy to use but powerful
+>> Secure as well as efficient
+>> Rigidity as well as extensibility
+
+As in market, there were already some programming language but do not have entirely 6 key features.
+FORTRAN - efficiency issues in scientific works , Bad for system code
+BASIC   - easy to use but very weak programming language
+Assembly - powerful language but very difficult to use , also debugging is difficult
+
+Also,
+all languages had some severe issues like
+
+1. FORTRAN,COBOL,BASIC languages lacks "Structured Principles" designs
+2. They heavily depend on GOTO or jump to execution , so issues arises called "Spaghetti Code"
+3. "Spaghetti Codes" creates  mass tangled jumps and conditional branches that make a program virtually impossible to
+    understand
+
+
+Pascals comes in the market with "Structured Principles" but have poor efficiency problems and fails in wide range
+of programming.
